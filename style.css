@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 70%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.6rem;
+    /* Define un espaciamento en todo que contenga texto */
+    line-height: 2;
+    background-color: #03A678;
+}
+
+h1 {
+    color: #F27405;
+    text-align: center;
+}
+
+header {
+    padding-top: 5rem;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 1rem auto;
+}
+
+#value-counter {
+    display: block;
+    font-size: 13rem;
+    text-align: center;
+}
+
+.counter-buttons {
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #731702;
+    border: .1rem solid #014040;
+    border-radius: 6px;
+    color: black;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
